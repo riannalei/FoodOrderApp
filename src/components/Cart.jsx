@@ -16,7 +16,7 @@ export default function Cart() {
   );
 
   function handleCloseCart() {
-    userProgressCtx.hideCart;
+    userProgressCtx.hideCart();
   }
 
   function handleGoToCheckOut() {

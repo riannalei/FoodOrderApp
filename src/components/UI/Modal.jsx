@@ -8,9 +8,9 @@ export default function Modal({ children, open, className = "", onClose }) {
     const modal = dialog.current;
     if (open) {
       modal.showModal();
+    } else {
+      modal.close();
     }
-
-    return () => modal.close();
   }, [open]);
 
   return createPortal(

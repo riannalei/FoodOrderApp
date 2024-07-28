@@ -1,3 +1,5 @@
+/* Existing CSS */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
 
 * {
@@ -259,4 +261,24 @@ h1 {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Add new styles for the confirmation screen */
+.confirmation {
+  text-align: center;
+}
+
+.confirmation h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffc404;
+}
+
+.confirmation p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.confirmation button {
+  font-size: 1.25rem;
 }
